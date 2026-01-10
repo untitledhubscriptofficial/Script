@@ -1,0 +1,6 @@
+--free for all--
+for i, v in pairs(game.Workspace:FindFirstChild("Map"):FindFirstChild("Ingame"):FindFirstChild("Map"):GetChildren()) do
+                    if v.Name =="Generator" then
+v:FindFirstChild("Remotes"):FindFirstChild("RE"):FireServer()
+    end
+end
